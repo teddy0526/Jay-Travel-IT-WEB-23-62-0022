@@ -1,0 +1,258 @@
+.container {
+  margin: auto 0px !important;
+  max-width: 100% !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.navbar-brand {
+  font-size: 35px !important;
+  font-weight: 700;
+  color: rgb(255, 122, 0);
+}
+
+.navbar {
+  padding: 0% !important;
+}
+
+.navbar-nav {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.nav-link {
+  color: white !important;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.active {
+  color: rgb(255, 122, 0) !important;
+}
+
+.bg-body-secondary {
+  background-color: black !important;
+}
+
+.image-style {
+  width: 100%;
+  height: 30rem;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#top-destinations {
+  display: flex;
+  gap: 2rem;
+  color: black;
+  justify-content: center;
+  margin-top: 20px !important;
+}
+
+.destination-section,
+.team-leads-section,
+.travelers-overhead-section,
+.contact-us-section {
+  text-align: center;
+  margin: 45px 0px !important;
+  color: rgb(255, 122, 0);
+}
+
+.subtopic {
+  color: black;
+  margin-right: 22rem !important;
+  margin-left: 22rem !important;
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#team-leads-data {
+  display: flex;
+  gap: 3rem;
+  color: black;
+  justify-content: center;
+  margin-top: 20px !important;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.testimonials-section {
+  text-align: center;
+  margin: 70px auto !important;
+  color: rgb(255, 122, 0);
+  background-color: rgb(4, 23, 26);
+}
+
+#testimonials {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#overhead-details {
+  display: flex;
+  gap: 0.7rem;
+  justify-content: center;
+  padding-top: 20px;
+  margin: 0px 70px;
+}
+
+.card {
+  border: 1px solid #d0d3d0;
+  border-bottom: 4px solid #71a0d4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-inline: 40px;
+}
+
+.cardTitle {
+  font-size: 25px;
+  color: #71a0d4;
+  margin-bottom: 1px;
+}
+
+.locationName {
+  font-size: 15px;
+  color: gray;
+}
+
+.reviewInShort {
+  font-size: 19px;
+  line-height: 23px;
+  color: #414244;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.seeMoreText {
+  color: #71a0d4;
+  font-size: 19px;
+}
+
+.personName {
+  font-size: 15px;
+  margin-top: 20px;
+  color: gray;
+}
+
+.submit-button {
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #4a9dd4;
+  color: white;
+  border: none;
+  padding-top: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  width: 230px;
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 25px;
+  width: 420px;
+}
+
+.name-field {
+  display: inline-flex;
+  gap: 15px;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-style {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-inline: 8px;
+  border: 1px solid #d0d3d0;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.checkbox-style {
+  color: #d0d3d0;
+}
+
+.checkbox-label {
+  color: #414244;
+  font-weight: 500;
+}
+
+.form-style {
+  display: flex;
+  justify-content: center !important;
+}
+
+.footer-styles {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(4, 23, 26);
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+
+.footer-nav-title {
+  text-transform: uppercase;
+}
+
+.footer-itemset {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.icon-size {
+  width: 18px;
+  height: 18px;
+}
+
+.contact-items {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.copyright-notice {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+}
+
+.icon-color {
+  color: rgb(255, 122, 0);
+}
