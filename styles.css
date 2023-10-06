@@ -1,3 +1,7 @@
+.main-content{
+  height: 80vh !important;
+}
+
 .container {
   margin: auto 0px !important;
   max-width: 100% !important;
@@ -9,6 +13,10 @@
   font-size: 35px !important;
   font-weight: 700;
   color: rgb(255, 122, 0);
+}
+
+.navbar-brand:hover{
+  color: rgb(235, 156, 83) !important;
 }
 
 .navbar {
